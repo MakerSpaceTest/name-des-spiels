@@ -311,7 +311,7 @@ player2.setPosition(20, 45)
 player2.setFlag(SpriteFlag.StayInScreen, true)
 controller.player2.moveSprite(player2, 200, 200)
 info.player2.setLife(3)
-info.player2.setScore(0)
+info.player2.setScore(9)
 game.onUpdateInterval(500, function () {
     if (true) {
         bogey = sprites.create(img`
